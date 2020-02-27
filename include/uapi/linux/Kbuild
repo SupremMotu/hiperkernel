@@ -252,6 +252,22 @@ ifneq ($(wildcard $(srctree)/arch/$(SRCARCH)/include/uapi/asm/kvm_para.h \
 header-y += kvm_para.h
 endif
 
+no-export-headers += bcache.h
+no-export-headers += cryptouser.h
+no-export-headers += coresight-stm.h
+no-export-headers += hash_info.h
+no-export-headers += kcov.h
+no-export-headers += keychord.h
+no-export-headers += kfd_ioctl.h
+no-export-headers += lightnvm.h
+no-export-headers += module.h
+no-export-headers += pr.h
+no-export-headers += stm.h
+no-export-headers += tee.h
+no-export-headers += userio.h
+no-export-headers += vsp1.h
+no-export-headers += wil6210_uapi.h
+
 header-y += hw_breakpoint.h
 header-y += l2tp.h
 header-y += libc-compat.h
